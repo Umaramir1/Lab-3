@@ -4,6 +4,11 @@ Console.WriteLine("Enter First Number");
 int num1 = Convert.ToInt32(Console.Readline());
 Console.WriteLine("Enter Second Number");
 int num2 = Convert.ToInt32(Console.Readline());
+Multiplication
+int Multiplication = num1 * num2;
+Console.WriteLine($"The Multiplication of {num1} and {num2} is {Multiplication}"};
+
 int Subtraction = num1 - num2;
 Console.WriteLine($"The Subtraction of {num1} and {num2} is {Subtraction}"};
+ Subtraction
 Console.ReadLine();
